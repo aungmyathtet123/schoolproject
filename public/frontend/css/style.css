@@ -1,0 +1,233 @@
+
+
+.navbar-brand{
+	width: 50px;
+	margin-left: 80px;
+}
+
+.navbar-nav{
+	margin-left: 100px;
+  padding: 20px;
+}
+
+.nav-item{
+  padding-left: 50px ;
+  font-family: Time-New-Roma;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+ul li a.nav-link:hover{
+	background-color: blue;
+}
+
+
+
+.carousel-item{
+
+    height: 50vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.slider{
+	 position: relative;
+}
+
+.carousel-content {
+  position: absolute;
+  bottom: 35%;
+  left: 10%;
+  z-index: 20;
+  color: white;
+  text-shadow: 0 1px 2px rgba(0,0,0,.6);
+}
+.carousel-content p {
+	padding: 10px;
+  /*border: 1px solid;*/
+  width: 500px;
+  margin: 0 auto;
+  font-size: 20px;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  word-break: break-all;
+  color: white;
+}
+
+.carousel-content .card{
+	opacity: 0.5;
+}
+
+.course:hover{
+	background-color: #3180f5;
+	color: white;
+	cursor: pointer;
+}
+.course a{
+  word-break: break-all;
+
+}
+
+.margin-course{
+	margin-top: 50px;
+	/* background-color: blue; */
+}
+
+
+.coursename{
+    background-color: #3180f5;
+
+    columns: black;
+}
+
+.service:hover{
+	background-color: #3180f5;
+
+}
+
+.management{
+	border-radius: 200px;
+}
+
+
+
+.management:hover{
+	opacity: 0.5;
+	cursor: pointer;
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+  border-radius: 50%;
+  width: 60%;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back {
+  background-color: #2980b9;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.bg-image{
+    height: 50vh;
+}
+
+.course_slide{
+  opacity: 0.5;
+   word-break: break-all;
+   width: 35%;
+}
+
+.singlecourse{
+  /*background-color: blue;*/
+  opacity: 0.4;
+  height: 50vh;
+}
+.homeimage{
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.7;
+}
+.homeimagebody{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: black;
+    width: 50%!important;
+    font-weight: bold;
+}
+
+p{
+    word-break: break-all;
+}
+
+.singlecoursebanner{
+    font-family: 'Times New Roman', Times, serif;
+}
+.singlecoursebanner p{
+    font-size: 20px;
+}
+
+.coursetext{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.coursetext h6 a{
+    color: black;
+    font-size: 15px;
+}
+
+.bannertext{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.department {
+    position: relative;
+
+  }
+
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .department:hover .image {
+    opacity: 0.5;
+  }
+
+  .department:hover .middle {
+    opacity: 1;
+  }
+
+  .text {
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    padding: 16px 32px;
+  }
